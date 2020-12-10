@@ -136,7 +136,7 @@ def load_dataset(inputData, delim, data_type='float64'):
     return data
 
 def main():
-    faces = load_dataset('frey-faces.csv',' ')
+    faces = load_dataset('test.csv',' ')
     model = PlotClusterings(faces)
     model.plot()
 
